@@ -1,0 +1,31 @@
+.header {
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(209, 143, 45);
+}
+
+.header.two {
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(241, 198, 105);
+}
+
+#sourdough-bread-img {
+    padding: inherit;
+    margin:auto;
+    display: block;
+  }
+
+.text {
+    font-family: "Times New Roman", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul.text {
+    font-size: 16px;
+}
