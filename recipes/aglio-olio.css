@@ -1,3 +1,10 @@
+.header,
+.header.two {
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+}
+
 .header {
     font-family: "Times New Roman", Arial, sans-serif;
     font-size: 32px;
@@ -16,16 +23,31 @@
 
 #aglio-olio-img {
     padding: inherit;
-    margin:auto;
+    margin: auto;
     display: block;
+    width: auto;
   }
 
 .text {
     font-family: "Times New Roman", Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
+    display: block;
+    margin: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
 }
 
-ul.text {
-    font-size: 16px;
+ul,
+ol { 
+	list-style-position: inside;  
+}
+
+li { 
+	text-align: center; 
+} 
+
+ol li {
+    margin: 10px 0;
 }

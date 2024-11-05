@@ -1,8 +1,16 @@
+.header,
+.header.two {
+    display: block;
+    width: 500px;
+    padding: 5px;
+    margin: 10px auto;
+    text-align: center;
+}
+
 .header {
     font-family: "Times New Roman", Arial, sans-serif;
     font-size: 32px;
     font-weight: 700;
-    text-align: center;
     background-color: rgb(245, 148, 144);
 }
 
@@ -10,7 +18,6 @@
     font-family: "Times New Roman", Arial, sans-serif;
     font-size: 24px;
     font-weight: 700;
-    text-align: center;
     background-color: rgb(241, 176, 133);
 }
 
@@ -18,14 +25,32 @@
     padding: inherit;
     margin:auto;
     display: block;
+    width: auto;
   }
 
 .text {
     font-family: "Times New Roman", Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
+    display: block;
+    margin: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
 }
 
-ul.text {
-    font-size: 16px;
+p {
+    text-align: center;
+}
+
+ul,
+ol { 
+	list-style-position: inside;  
+}
+
+li { 
+	text-align: center; 
+} 
+
+ol li {
+    margin: 10px 0;
 }
